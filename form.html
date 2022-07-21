@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>นายวริทธิ์ อรรถรัฐ รหัสนักศึกษา 6340011011</h1>
+    <h1>ฟอร์มลงทะเบียนศิษย์เก่า IT IS</h1>
+    <form action="http://www.example.com" method="post">
+      <label for="ชื่อ-สกุล">ชื่อ-สกุล:</label>
+      <input type="text" name="ชื่อ-สกุล" size="30" maxlength="25" />
+
+      <label for="รหัสนักศึกษา">รหัสนักศึกษา:</label>
+      <input type="text" name="รหัสนักศึกษา" size="10" maxlength="10" />
+      <p>
+        <label for="gender">เพศ</label>
+        <input type="radio" name="เพศ" value="ผู้หญิง" checked />ผู้หญิง
+        <input type="radio" name="เพศ" value="ผู้ชาย" />ผู้ชาย
+        <input type="radio" name="เพศ" value="อื่นๆ" />อื่นๆ
+      </p>
+
+      <p>
+        <label for="ปีการศึกษา">ปีการศึกษา</label>
+        <select name="ปีการศึกษา">
+          <option value="2558">2558</option>
+          <option value="2559">2559</option>
+          <option value="2560">2560</option>
+          <option value="2561">2561</option>
+          <option value="2562">2562</option>
+        </select>
+      </p>
+      <p>
+        <label for="ที่อยู่">ที่อยู่:</label>
+        <textarea name="ที่อยู่" id="" cols="30" rows="5"></textarea>
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="text" name="email" size="20" maxlength="20" />
+        <!--กำหนดรูปแบบ email format-->
+      </p>
+      <p>
+        <label for="เบอร์โทรติดต่อ">เบอร์โทรติดต่อ:</label>
+        <input type="text" name="tel" size="15" maxlength="10" />
+      </p>
+      <p>
+        <label for="ชื่อหลักสูตร">ชื่อหลักสูตร:</label>
+        <input type="radio" name="ชื่อหลักสูตร" value="IT" checked />IT
+        <input type="radio" name="ชื่อหลักสูตร" value="IS" />IS
+      </p>
+
+      <p>
+        <label for="อาชีพปัจจุบัน">อาชีพปัจจุบัน:</label>
+        <select name="อาชีพปัจจุบัน">
+          <option value="โปรแกรมเมอร์">โปรแกรมเมอร์</option>
+          <option value="รับราชการ">รับราชการ</option>
+          <option value="Database Management">Database Management</option>
+          <option value="IT SUPPORT">IT SUPPORT</option>
+          <option value="ว่างงาน">ว่างงาน</option>
+        </select>
+      </p>
+      <p>
+        <label for="อื่นๆ">อื่นๆโปรดระบุ:</label>
+        <input type="text" />
+      </p>
+      <p>
+        <label for="สถานที่ทำงาน"
+          >สถานที่ทำงาน(ระบุชื่อบริษัทและที่อยู่):</label
+        >
+      </p>
+      <p>
+        <textarea name="สถานที่ทำงาน" id="" cols="40" rows="5"></textarea>
+      </p>
+      <p>
+        <label for="ระบุประเภทงานที่ทำ">ระบุประเภทงานที่ทำ:</label>
+        <select name="ระบุประเภทงาน">
+          <option value="Graphic Design">Graphic Design</option>
+          <option value="Software Tester">Software Tester</option>
+          <option value="Digital Marketing">Digital Marketing</option>
+          <option value="System Analyst">System Analyst</option>
+        </select>
+      </p>
+      <p>
+        <label for="photo">รูปถ่ายตนเอง1รูป:</label>
+        <input type="file" name="photo" />
+      </p>
+      <p><a href="/webprogramming.html">BACK</a></p>
+    </form>
+  </body>
+</html>
