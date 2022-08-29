@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Permanent+Marker&display=swap');
+
+body{
+    font-family : 'Alumni Sans Inline One', cursive;
+}
+/* Modify css */
+.navbar-brand{
+    font-family: 'Permanent Marker', cursive;   
+}
+.bg-yellow{
+    background-color: gold; 
+}
+.me{
+    height: 350px;
+    width: 300px;
+}

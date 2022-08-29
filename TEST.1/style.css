@@ -1,0 +1,55 @@
+.secondMenu {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    font-size: small;
+    
+}
+
+  li.separateline a:after {
+    color: white;
+    padding: 0 8px;
+    content: "|";
+  }
+  .navbar-dark .navbar-toggler {
+    border-color: transparent;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+  }
+  .nav-link {
+    color: black;
+    padding: 0.5rem 0.1rem;
+    
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: black;
+  }
+  .navbar-light .navbar-brand {
+    color: black;
+  }
+  .navbar {
+    align-items: stretch;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+    margin: 0;
+    background-color: red;
+  }
+  .brand {
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  
+  
